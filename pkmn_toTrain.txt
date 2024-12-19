@@ -1,0 +1,6 @@
+scyther 	box 19
+carvanha 	box 19
+starly 		box 22
+castform 	box 26
+swinub		box 32
+clefairy	box 35

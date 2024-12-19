@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PokeTime Calculator</title>
+</head>
+
+<body onload="init()">
+    <p>Poketime Calculator:</p>
+	<label for="input">input game time in h m s</label><br>
+    <input type="text" id="input"><input type="button" value="calculate" onclick="poketime()">
+    <br><br>
+    <div id="output"></div>
+    <hr>
+    <p>Effort Value locator:</p>
+    <select id="evlocate" onchange="evlocate(this.value)">
+        <option value="">--- pick ---</option>
+        <option value="HP">HP</option>
+        <option value="ATK">ATK</option>
+        <option value="DEF">DEF</option>
+        <option value="SPD">SPD</option>
+        <option value="SPATK">SPATK</option>
+        <option value="SPDEF">SPDEF</option>
+    </select>
+    <br><br>
+    <div id="output2"></div>
+    <hr>
+	<label for="weakness">insert name of pkmn</label><br>
+    <input type="text" id="weakness"><input type="button" value="redirect" onclick="calc_weakness()">
+    <script src="js/poketime.js"></script>
+    <script src="js/evlocator.js"></script>
+    <script src="js/weakness.js"></script>
+    <script src="js/main.js"></script>
+</body></html>

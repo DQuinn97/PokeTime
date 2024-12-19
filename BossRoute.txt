@@ -1,0 +1,11 @@
+Kanto:
+	(Klohver)	Pinkan Island Meadow
+	Chuck		Saffron City
+	Koichi		Saffron City Dojo
+	(Erika)		Viridian Maze
+
+Johto:
+	Bruno		Mt. Mortar Lower Cave
+	(Bugsy)		Amazon Forest (Dock Island)
+
+	(Sage)		Sprout Tower
